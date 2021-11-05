@@ -56,6 +56,7 @@ const summedPrice = cart.reduce((acc, curr) => acc + curr)
 
 //CODE HERE
 const calcFinalPrice(cartTotal, couponValue, tax) {
+    
 
 }
 
@@ -84,7 +85,7 @@ const calcFinalPrice(cartTotal, couponValue, tax) {
 /*
     TEXT ANSWER HERE
     The customer object will have name, phone, address, and credit card number properties. These properties will be useful when billing customers and when preparing to-go orders. 
-    The name and address properties will be strings while the phone and credit card number properties will be numbers.
+    The name and address properties will be strings, while the phone and credit card number properties will be numbers.
 
 
 */
