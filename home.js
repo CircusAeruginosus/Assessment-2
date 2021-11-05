@@ -164,7 +164,6 @@ console.log(newDeal)
 */
 
 //CODE HERE
-const changeMonth = deals.replace("March", "April")
+const changeMonth = deals.replace("March", "April").trim()
 
-const trimWhitespace = whitespace.trim()
 
