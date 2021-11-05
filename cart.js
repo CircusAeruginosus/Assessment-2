@@ -55,8 +55,7 @@ const summedPrice = cart.reduce((acc, curr) => acc + curr)
 */
 
 //CODE HERE
-const calcFinalPrice(cartTotal, couponValue, tax) {
-    
+function calcFinalPrice(cartTotal, couponValue, tax){
 
 }
 
@@ -100,5 +99,5 @@ const customer = {
     name: "Fred Rogers",
     phone: 8179871237,
     address: "123 Main Street, Dallas, TX",
-    credit card number: 123456789
+    "credit-card-number": 123456789
 }
