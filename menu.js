@@ -33,11 +33,11 @@
 //CODE HERE
 const pizza = {
     name: "margherita pizza",
-    price: 12
-    category: "entree"
-    popularity: 5
-    rating: 4
-    tags: ["classics", "vegetarian"]
+    price: 12,
+    category: "entree",
+    popularity: 5,
+    rating: 4,
+    tags: ["classics", "vegetarian", "customer favorites"]
 }
 
 
@@ -62,6 +62,8 @@ console.log(pizza.popularity)
 */
 
 //CODE HERE
+console.log(pizza.tags[1])
+
 
 
 /*
