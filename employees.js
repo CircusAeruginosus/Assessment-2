@@ -96,7 +96,7 @@ const empTwo = {...empOne}
 
 //CODE HERE
 class Manager extends Employee{
-    constructor constructor(name, shifts, employees){
+    constructor(name, shifts, employees){
         super(name, shifts)
         this.employees = employees
 }
