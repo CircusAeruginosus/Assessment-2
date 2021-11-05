@@ -74,6 +74,9 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
+const {price} = pizza
+
+console.log(`${price}`)
 
 
 /*
@@ -84,6 +87,9 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
+const {category} = pizza
+
+console.log(`${category}`)
 
 
 //////////////////PROBLEM 3////////////////////
@@ -99,6 +105,48 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
+foodArr = [
+    const pasta = {
+        name: "spaghetti",
+        price: 10,
+        category: "entree",
+        popularity: 4,
+        rating: 3,
+        tags: ["kids", "classics", "gluten-free"]
+    },
+     const lasagna = {
+         name: "lasagna",
+         price: 11,
+         category: "entree",
+         popularity: 5,
+         rating: 4,
+         tags: ["vegetarian", "classics"]
+     },
+     const ravioli = {
+         name: "ravioli",
+         price: 13,
+         category: "entree",
+         popularity: 4,
+         rating: 3,
+         tags: ["kids", "low-fat"]
+     },
+     const tiramisu = {
+         name: "tiramisu",
+         price: 5,
+         category: "dessert",
+         popularity: 5,
+         rating: 5,
+         tags: ["dessert", "chocolate"]
+     },
+     const cheesecake = {
+         name: "cheesecake",
+         price: 5,
+         category: "dessert",
+         popularity: 5,
+         rating: 4,
+         tags: ["dessert", "favorites"]
+     }
+]
 
 
 
@@ -116,7 +164,11 @@ console.log(pizza.tags[1])
 
 //CODE HERE
 
-// const filteredFood = foodArr.filter(/* CALLBACK HERE */)
+const filteredFood = foodArr.filter(function("classics"){
+    return "classics"
+}
+
+console.log(filteredFood)
 
 
 
@@ -160,6 +212,10 @@ console.log(pizza.tags[1])
 */
 
 //CODE HERE
+const filterByProperty = (property, number, type) => {
+    let filteredFood = []
+    return filteredFood
+}
 
 
 /*
