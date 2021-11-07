@@ -210,7 +210,16 @@ console.log(filteredFood)
 
 //CODE HERE
 const filterByProperty = (property, number, type) => {
-    let filteredFood = []
+    let filteredFood = [];
+    foodArr.filter(function(value, ind, arr){
+        if (type === ){
+            return 
+
+        } else {
+            return
+        }
+    })
+
     return filteredFood
 }
 
